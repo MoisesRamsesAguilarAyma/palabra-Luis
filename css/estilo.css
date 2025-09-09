@@ -1,0 +1,74 @@
+*{margin: 1px;}
+.padre{
+    background-color: yellow;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.l1{
+    background-color: green;
+    padding: 20px;
+    grid-column: 1/2;
+    grid-row: 1/6;
+}
+.l2{
+    background-color: green;
+    padding: 20px;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.u1{
+    background-color: green;
+    padding: 20px;
+    grid-column: 4/5;
+    grid-row: 1/6;
+}
+.u2{
+    background-color: green;
+    padding: 20px;
+    grid-column: 5/6;
+    grid-row: 5/6;
+}
+.u3{
+    background-color: green;
+    padding: 20px;
+    grid-column: 6/7;
+    grid-row: 1/6;
+}
+.i{
+    background-color: green;
+    padding: 20px;
+    grid-column: 8/9;
+    grid-row: 1/6;
+}
+.s1{
+    background-color: green;
+    padding: 20px;
+    grid-column: 10/13;
+    grid-row: 1/2;
+}
+.s2{
+    background-color: green;
+    padding: 20px;
+    grid-column: 10/11;
+    grid-row: 2/4;
+}
+.s3{
+    background-color: green;
+    padding: 20px;
+    grid-column: 11/12;
+    grid-row: 3/4;
+}
+.s4{
+    background-color: green;
+    padding: 20px;
+    grid-column: 12/13;
+    grid-row: 3/5;
+}
+.s5{
+    background-color: green;
+    padding: 20px;
+    grid-column: 10/13;
+    grid-row: 5/6;
+}
